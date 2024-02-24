@@ -1,0 +1,19 @@
+{
+    "name": "bunker/laravel-localization",
+    "description": "this package implements cookie based localization on laravel application.",
+    "type": "library",
+    "license": "GNU",
+    "autoload": {
+        "psr-4": {
+            "Bunker\\LaravelLocalization\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rafiqul Islam Shawn",
+            "email": "vwaaala@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
