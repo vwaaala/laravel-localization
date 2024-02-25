@@ -1,7 +1,7 @@
 
 # bunker/laravel-localization
 
-this package implements cookie based localization on laravel v10.40.
+this package implements cookie based localization in laravel v10.40.
 ## Installation
 
 Install the package with composer
