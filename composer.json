@@ -1,11 +1,13 @@
 {
     "name": "bunker/laravel-localization",
-    "description": "this package implements cookie based localization on laravel application.",
+    "description": "this package implements cookie based localization on laravel v10.40.",
     "type": "library",
     "license": "GNU",
     "autoload": {
         "psr-4": {
-            "Bunker\\LaravelLocalization\\": "src/"
+            "Bunker\\LaravelLocalization\\": "src/",
+            "Bunker\\LaravelLocalization\\Tests\\": "tests/",
+            "Illuminate\\": "vendor/laravel/framework/src/"
         }
     },
     "authors": [
@@ -15,5 +17,12 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "scripts": {
+        "test": "phpunit"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.21",
+        "laravel/framework": "10.40.*",
+        "phpunit/phpunit": "10.1.*"
+    }
 }
