@@ -2,7 +2,7 @@
     "name": "bunker/laravel-localization",
     "description": "this package implements cookie based localization on laravel v10.40.",
     "type": "library",
-    "license": "GNU",
+    "license": "GPL-3.0",
     "autoload": {
         "psr-4": {
             "Bunker\\LaravelLocalization\\": "src/",
